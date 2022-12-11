@@ -1,0 +1,17 @@
+{
+	"appId": "com.barc.R34",
+	"productName": "Rule34 Downloader",
+	"directories": {
+		"output": "dist"
+	},
+	"files": [
+		"src/electron.cjs",
+		"src/preload.cjs",
+		"src/page.cjs",
+		"src/server.cjs",
+		{
+			"from": "build",
+			"to": ""
+		}
+	]
+}
